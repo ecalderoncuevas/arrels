@@ -10,7 +10,8 @@
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "switchLanguage": "Change language"
+    "switchLanguage": "Change language",
+    "toggleTheme": "Toggle light and dark mode"
   },
   "hero": {
     "badge": "In season",

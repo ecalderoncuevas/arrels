@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
-import { Fraunces, Inter } from "next/font/google"
+import { Fraunces, Inter, Kaushan_Script } from "next/font/google"
 import { notFound } from "next/navigation"
+import { ThemeProvider } from "next-themes"
 import { SiteHeader } from "@/components/site-header"
 import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
 import { routing } from "@/i18n/routing"
@@ -17,6 +18,13 @@ const fraunces = Fraunces({
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
+  display: "swap",
+})
+
+const kaushanScript = Kaushan_Script({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-script",
   display: "swap",
 })
 
@@ -64,24 +72,27 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${fraunces.variable} ${inter.variable} antialiased`}
+      suppressHydrationWarning
+      className={`${fraunces.variable} ${inter.variable} ${kaushanScript.variable} antialiased`}
     >
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
-        <NextIntlClientProvider>
-          <SmoothScrollProvider>
-            <SiteHeader />
-            <main className="flex-1">{children}</main>
-            <footer className="border-t border-border/60 px-6 py-10 text-sm text-muted-foreground">
-              <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 text-center">
-                <p>{t("tagline")}</p>
-                <p>
-                  © {new Date().getFullYear()} Arrels Fruita i Verdura —{" "}
-                  {t("rights")}
-                </p>
-              </div>
-            </footer>
-          </SmoothScrollProvider>
-        </NextIntlClientProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <NextIntlClientProvider>
+            <SmoothScrollProvider>
+              <SiteHeader />
+              <main className="flex-1">{children}</main>
+              <footer className="border-t border-border/60 px-6 py-10 text-sm text-muted-foreground">
+                <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 text-center">
+                  <p>{t("tagline")}</p>
+                  <p>
+                    © {new Date().getFullYear()} Arrels Fruita i Verdura —{" "}
+                    {t("rights")}
+                  </p>
+                </div>
+              </footer>
+            </SmoothScrollProvider>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

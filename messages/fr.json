@@ -10,7 +10,8 @@
     "contact": "Contact",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "switchLanguage": "Changer de langue"
+    "switchLanguage": "Changer de langue",
+    "toggleTheme": "Basculer entre le mode clair et sombre"
   },
   "hero": {
     "badge": "De saison",

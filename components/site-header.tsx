@@ -7,6 +7,7 @@ import * as React from "react"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { MobileMenu } from "@/components/mobile-menu"
 import { useSmoothScroll } from "@/components/smooth-scroll-provider"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { gsap } from "@/lib/gsap"
 import { cn } from "@/lib/utils"
 
@@ -99,7 +100,8 @@ export function SiteHeader() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
           <LanguageSwitcher className="hidden md:flex" />
           <MobileMenu items={items} />
         </div>

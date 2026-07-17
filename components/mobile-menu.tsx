@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl"
 import * as React from "react"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useSmoothScroll } from "@/components/smooth-scroll-provider"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { gsap } from "@/lib/gsap"
 
 type NavItem = { id: string; label: string }
@@ -83,8 +84,9 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
               </ul>
             </Drawer.Content>
 
-            <div className="pt-6">
+            <div className="flex items-center justify-between pt-6">
               <LanguageSwitcher />
+              <ThemeToggle />
             </div>
           </Drawer.Popup>
         </Drawer.Viewport>
