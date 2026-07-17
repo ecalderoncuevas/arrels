@@ -1,0 +1,109 @@
+"use client"
+
+import { useGSAP } from "@gsap/react"
+import type Lenis from "lenis"
+import { useTranslations } from "next-intl"
+import * as React from "react"
+import { LanguageSwitcher } from "@/components/language-switcher"
+import { MobileMenu } from "@/components/mobile-menu"
+import { useSmoothScroll } from "@/components/smooth-scroll-provider"
+import { gsap } from "@/lib/gsap"
+import { cn } from "@/lib/utils"
+
+const SCROLL_THRESHOLD = 24
+
+export function SiteHeader() {
+  const t = useTranslations("nav")
+  const { lenis } = useSmoothScroll()
+  const [scrolled, setScrolled] = React.useState(false)
+  const navRef = React.useRef<HTMLUListElement>(null)
+
+  const items = React.useMemo(
+    () => [
+      { id: "home", label: t("home") },
+      { id: "about", label: t("about") },
+      { id: "products", label: t("products") },
+      { id: "contact", label: t("contact") },
+    ],
+    [t]
+  )
+
+  React.useEffect(() => {
+    if (!lenis) return
+    const onScroll = (instance: Lenis) =>
+      setScrolled(instance.scroll > SCROLL_THRESHOLD)
+    lenis.on("scroll", onScroll)
+    return () => lenis.off("scroll", onScroll)
+  }, [lenis])
+
+  useGSAP(
+    () => {
+      if (!navRef.current) return
+      gsap.from(navRef.current.children, {
+        opacity: 0,
+        y: -12,
+        duration: 0.6,
+        stagger: 0.08,
+        delay: 0.2,
+        ease: "power3.out",
+      })
+    },
+    { scope: navRef }
+  )
+
+  const handleNavClick = (id: string) => {
+    lenis?.scrollTo(`#${id}`, { offset: -96 })
+  }
+
+  return (
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
+        scrolled
+          ? "bg-background/90 shadow-sm backdrop-blur-md"
+          : "bg-transparent"
+      )}
+    >
+      <div
+        className={cn(
+          "mx-auto flex max-w-6xl items-center justify-between px-6 transition-all duration-300",
+          scrolled ? "py-3" : "py-5"
+        )}
+      >
+        <a
+          href="#home"
+          onClick={(event) => {
+            event.preventDefault()
+            handleNavClick("home")
+          }}
+          className="font-heading text-xl tracking-tight text-foreground"
+        >
+          Arrels
+        </a>
+
+        <ul ref={navRef} className="hidden items-center gap-8 md:flex">
+          {items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#${item.id}`}
+                onClick={(event) => {
+                  event.preventDefault()
+                  handleNavClick(item.id)
+                }}
+                className="group relative text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
+              >
+                {item.label}
+                <span className="absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100" />
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-3">
+          <LanguageSwitcher className="hidden md:flex" />
+          <MobileMenu items={items} />
+        </div>
+      </div>
+    </header>
+  )
+}

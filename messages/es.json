@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Arrels — Fruta y verdura de proximidad en el Eixample",
+    "description": "Arrels Fruita i Verdura: producto fresco, de temporada y de proximidad en el corazón del Eixample de Barcelona."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "contact": "Contacto",
+    "openMenu": "Abrir el menú",
+    "closeMenu": "Cerrar el menú",
+    "switchLanguage": "Cambiar de idioma"
+  },
+  "hero": {
+    "badge": "De temporada",
+    "title": "Arrels",
+    "subtitle": "Fruta y verdura de barrio. Producto fresco, de proximidad y de temporada en el corazón del Eixample.",
+    "ctaPrimary": "Descubre la tienda",
+    "ctaSecondary": "Nuestra filosofía",
+    "scrollCue": "Descubre"
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Raíces que alimentan un barrio",
+    "lead": "Arrels significa raíces: el vínculo con la tierra, con los payeses a los que conocemos por su nombre y con un barrio que recorremos cada día.",
+    "paragraphs": [
+      "Desde hace décadas levantamos la persiana en el Eixample con el mismo gesto: elegir el mejor género del día, uno a uno, antes de que el barrio despierte del todo.",
+      "No somos una cadena ni queremos serlo. Somos una tienda de toda la vida que ha decidido hacer las cosas bien: menos kilómetros, más sabor, y un trato que solo se gana con los años.",
+      "Trabajar con payeses y cooperativas de Cataluña no es una etiqueta, es nuestro día a día. Sabemos quién planta, quién riega y quién recoge lo que llega al mostrador."
+    ],
+    "values": {
+      "proximity": {
+        "title": "Proximidad",
+        "description": "Payeses y cooperativas locales, a pocas horas de la cosecha."
+      },
+      "freshness": {
+        "title": "Frescura",
+        "description": "Género nuevo cada mañana, elegido pieza a pieza."
+      },
+      "roots": {
+        "title": "Raíces",
+        "description": "Un comercio de barrio, con el orgullo del producto de siempre."
+      }
+    }
+  },
+  "products": {
+    "eyebrow": "Productos",
+    "title": "La temporada, tal cual es",
+    "intro": "Sin forzar calendarios. Lo que ves en el mostrador es lo que la tierra da ahora mismo — colores vivos, el punto justo de maduración y muy poco viaje hasta aquí.",
+    "items": [
+      {
+        "name": "Tomate de Montserrat",
+        "description": "Carnoso y dulce, cultivado al pie del macizo. El rey del verano.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Melocotón de Calanda",
+        "description": "Aroma intenso y pulpa jugosa, protegido con su bolsita hasta el final.",
+        "variant": "earth"
+      },
+      {
+        "name": "Alcachofa del Prat",
+        "description": "Tierna y de corazón generoso, de las huertas que tocan la ciudad.",
+        "variant": "leaf"
+      },
+      {
+        "name": "Naranja de Vera",
+        "description": "Jugosa y equilibrada, de las mejores partidas de temporada baja.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Remolacha de huerta",
+        "description": "Hoja y raíz en un solo producto, terrosa y llena de carácter.",
+        "variant": "forest"
+      },
+      {
+        "name": "Uva Moscatel",
+        "description": "Grano pequeño y muy aromático, de las últimas cosechas de la campaña.",
+        "variant": "forest"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Ven a vernos",
+    "intro": "En el corazón del Eixample, muy cerca de ti.",
+    "addressLabel": "Dirección",
+    "address": "Av. de Mistral, 24, Eixample, 08015 Barcelona",
+    "phoneLabel": "Teléfono",
+    "hoursLabel": "Horario",
+    "mapTitle": "Arrels — Av. de Mistral, 24",
+    "ctaDirections": "Cómo llegar"
+  },
+  "openingHours": {
+    "title": "Horario",
+    "openNow": "Abierto ahora",
+    "closedNow": "Cerrado",
+    "checking": "Consultando el horario…",
+    "closedDay": "Cerrado",
+    "days": {
+      "mon": "Lunes",
+      "tue": "Martes",
+      "wed": "Miércoles",
+      "thu": "Jueves",
+      "fri": "Viernes",
+      "sat": "Sábado",
+      "sun": "Domingo"
+    }
+  },
+  "footer": {
+    "tagline": "Fruta y verdura de proximidad, en el Eixample de Barcelona.",
+    "rights": "Todos los derechos reservados."
+  }
+}

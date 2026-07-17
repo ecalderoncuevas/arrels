@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Arrels — Fruita i verdura de proximitat a l'Eixample",
+    "description": "Arrels Fruita i Verdura: producte fresc, de temporada i de proximitat al cor de l'Eixample de Barcelona."
+  },
+  "nav": {
+    "home": "Inici",
+    "about": "Nosaltres",
+    "products": "Productes",
+    "contact": "Contacte",
+    "openMenu": "Obrir el menú",
+    "closeMenu": "Tancar el menú",
+    "switchLanguage": "Canviar d'idioma"
+  },
+  "hero": {
+    "badge": "De temporada",
+    "title": "Arrels",
+    "subtitle": "Fruita i verdura del barri. Producte fresc, de proximitat i de temporada al cor de l'Eixample.",
+    "ctaPrimary": "Descobreix la botiga",
+    "ctaSecondary": "La nostra filosofia",
+    "scrollCue": "Descobreix"
+  },
+  "about": {
+    "eyebrow": "Nosaltres",
+    "title": "Arrels que alimenten un barri",
+    "lead": "Arrels vol dir raïls: el lligam amb la terra, amb els pagesos que coneixem pel nom i amb un barri que travessem cada dia.",
+    "paragraphs": [
+      "Des de fa dècades obrim la persiana a l'Eixample amb el mateix gest: triar el millor gènere del dia, un per un, abans que el barri es desperti del tot.",
+      "No som una cadena ni volem ser-ho. Som una botiga de tota la vida que ha decidit fer les coses ben fetes: menys quilòmetres, més sabor, i un tracte que només es guanya amb els anys.",
+      "Treballar amb pagesos i cooperatives de Catalunya no és una etiqueta, és el nostre dia a dia. Sabem qui planta, qui reca i qui cull el que arriba al taulell."
+    ],
+    "values": {
+      "proximity": {
+        "title": "Proximitat",
+        "description": "Pagesos i cooperatives locals, a poques hores de collita."
+      },
+      "freshness": {
+        "title": "Frescor",
+        "description": "Gènere nou cada matí, triat una peça a la vegada."
+      },
+      "roots": {
+        "title": "Arrels",
+        "description": "Un comerç de barri, amb l'orgull del producte de sempre."
+      }
+    }
+  },
+  "products": {
+    "eyebrow": "Productes",
+    "title": "La temporada, tal com és",
+    "intro": "Sense forçar calendaris. El que veus al taulell és el que la terra dona ara mateix — colors vius, punt just de maduresa i molt poc viatge fins aquí.",
+    "items": [
+      {
+        "name": "Tomàquet de Montserrat",
+        "description": "Carnós i dolç, collit al peu del massís. El rei de l'estiu.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Préssec de Calanda",
+        "description": "Aroma intens i polpa sucosa, protegit amb la seva bosseta fins al final.",
+        "variant": "earth"
+      },
+      {
+        "name": "Carxofa del Prat",
+        "description": "Tendra i de cor generós, de les hortes que toquen la ciutat.",
+        "variant": "leaf"
+      },
+      {
+        "name": "Taronja de Vera",
+        "description": "Sucosa i equilibrada, de les millors partides de temporada baixa.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Bleda-rave de l'horta",
+        "description": "Fulla i arrel en un sol producte, terrosa i plena de caràcter.",
+        "variant": "forest"
+      },
+      {
+        "name": "Raïm Moscatell",
+        "description": "Gra petit i molt aromàtic, de les últimes collites de la campanya.",
+        "variant": "forest"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacte",
+    "title": "Vine a veure'ns",
+    "intro": "Al cor de l'Eixample, a tocar de casa teva.",
+    "addressLabel": "Adreça",
+    "address": "Av. de Mistral, 24, Eixample, 08015 Barcelona",
+    "phoneLabel": "Telèfon",
+    "hoursLabel": "Horari",
+    "mapTitle": "Arrels — Av. de Mistral, 24",
+    "ctaDirections": "Com arribar"
+  },
+  "openingHours": {
+    "title": "Horari",
+    "openNow": "Obert ara",
+    "closedNow": "Tancat",
+    "checking": "Consultant l'horari…",
+    "closedDay": "Tancat",
+    "days": {
+      "mon": "Dilluns",
+      "tue": "Dimarts",
+      "wed": "Dimecres",
+      "thu": "Dijous",
+      "fri": "Divendres",
+      "sat": "Dissabte",
+      "sun": "Diumenge"
+    }
+  },
+  "footer": {
+    "tagline": "Fruita i verdura de proximitat, a l'Eixample de Barcelona.",
+    "rights": "Tots els drets reservats."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Arrels — Local fruit and vegetables in the Eixample",
+    "description": "Arrels Fruita i Verdura: fresh, seasonal, locally-sourced produce in the heart of Barcelona's Eixample."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Produce",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Change language"
+  },
+  "hero": {
+    "badge": "In season",
+    "title": "Arrels",
+    "subtitle": "Neighbourhood fruit and vegetables. Fresh, local and seasonal produce in the heart of the Eixample.",
+    "ctaPrimary": "Discover the shop",
+    "ctaSecondary": "Our philosophy",
+    "scrollCue": "Discover"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Roots that feed a neighbourhood",
+    "lead": "Arrels means roots: the bond with the land, with the growers we know by name, and with a neighbourhood we walk through every day.",
+    "paragraphs": [
+      "For decades we've opened the shutters in the Eixample with the same gesture: choosing the best produce of the day, one piece at a time, before the neighbourhood has fully woken up.",
+      "We're not a chain, and we don't want to be one. We're a lifelong local shop that decided to do things properly: fewer food miles, more flavour, and a rapport that only years can earn.",
+      "Working with growers and cooperatives across Catalonia isn't a label, it's our everyday. We know who plants, who waters, and who picks what ends up on our counter."
+    ],
+    "values": {
+      "proximity": {
+        "title": "Proximity",
+        "description": "Local growers and cooperatives, hours away from harvest."
+      },
+      "freshness": {
+        "title": "Freshness",
+        "description": "New produce every morning, chosen one piece at a time."
+      },
+      "roots": {
+        "title": "Roots",
+        "description": "A neighbourhood shop, proud of produce done the old way."
+      }
+    }
+  },
+  "products": {
+    "eyebrow": "Produce",
+    "title": "The season, as it is",
+    "intro": "No forced calendars. What you see on the counter is what the land gives right now — vivid colours, just the right ripeness, and barely any distance travelled.",
+    "items": [
+      {
+        "name": "Montserrat tomato",
+        "description": "Meaty and sweet, grown at the foot of the mountain. The king of summer.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Calanda peach",
+        "description": "Intense aroma and juicy flesh, kept in its little paper bag until the end.",
+        "variant": "earth"
+      },
+      {
+        "name": "Prat artichoke",
+        "description": "Tender with a generous heart, from the market gardens at the city's edge.",
+        "variant": "leaf"
+      },
+      {
+        "name": "Vera orange",
+        "description": "Juicy and well-balanced, from the finest late-season batches.",
+        "variant": "citrus"
+      },
+      {
+        "name": "Garden beetroot",
+        "description": "Leaf and root in one, earthy and full of character.",
+        "variant": "forest"
+      },
+      {
+        "name": "Muscat grape",
+        "description": "Small, deeply aromatic berries, from the season's final harvests.",
+        "variant": "forest"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Come see us",
+    "intro": "In the heart of the Eixample, close to home.",
+    "addressLabel": "Address",
+    "address": "Av. de Mistral, 24, Eixample, 08015 Barcelona",
+    "phoneLabel": "Phone",
+    "hoursLabel": "Opening hours",
+    "mapTitle": "Arrels — Av. de Mistral, 24",
+    "ctaDirections": "Get directions"
+  },
+  "openingHours": {
+    "title": "Opening hours",
+    "openNow": "Open now",
+    "closedNow": "Closed",
+    "checking": "Checking opening hours…",
+    "closedDay": "Closed",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  },
+  "footer": {
+    "tagline": "Local fruit and vegetables, in Barcelona's Eixample.",
+    "rights": "All rights reserved."
+  }
+}
