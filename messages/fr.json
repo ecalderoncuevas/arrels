@@ -80,7 +80,113 @@
         "description": "Petit grain très aromatique, des dernières récoltes de la saison.",
         "variant": "forest"
       }
-    ]
+    ],
+    "ctaViewCatalog": "Voir tout le catalogue"
+  },
+  "catalog": {
+    "meta": {
+      "title": "Catalogue — Arrels Fruita i Verdura",
+      "description": "Fruits, légumes et produits d'épicerie, organisés par catégorie à la boutique Arrels de l'Eixample."
+    },
+    "eyebrow": "Catalogue",
+    "title": "Nos produits",
+    "intro": "Tout ce que vous trouverez à la boutique, organisé par familles. Fruits et légumes de saison, ainsi qu'une sélection soignée de produits d'épicerie.",
+    "categoriesNav": "Catégories",
+    "categories": {
+      "fruit": "Fruits",
+      "vegetable": "Légumes",
+      "pantry": "Épicerie"
+    },
+    "units": {
+      "unit": "unité"
+    },
+    "products": {
+      "peach-calanda": {
+        "name": "Pêche de Calanda",
+        "description": "Arôme intense et chair juteuse, protégée par son petit sachet jusqu'au bout."
+      },
+      "orange-vera": {
+        "name": "Orange de Vera",
+        "description": "Juteuse et équilibrée, parfaite pour un jus du matin."
+      },
+      "muscat-grape": {
+        "name": "Raisin muscat",
+        "description": "Petit grain très aromatique, des dernières récoltes de la saison."
+      },
+      "strawberry": {
+        "name": "Fraise",
+        "description": "Rouge et juteuse, cueillie à parfaite maturité."
+      },
+      "apple-golden": {
+        "name": "Pomme Golden",
+        "description": "Croquante et sucrée, parfaite à croquer ou à cuisiner."
+      },
+      "pear-conference": {
+        "name": "Poire Conference",
+        "description": "Chair fine et saveur délicate, à la texture douce."
+      },
+      "tomato-montserrat": {
+        "name": "Tomate de Montserrat",
+        "description": "Charnue et sucrée, cultivée au pied du massif. La reine de l'été."
+      },
+      "artichoke-prat": {
+        "name": "Artichaut du Prat",
+        "description": "Tendre et généreux, des maraîchages aux portes de la ville."
+      },
+      "beetroot": {
+        "name": "Betterave",
+        "description": "Terreuse et sucrée, idéale rôtie ou en salade."
+      },
+      "potato": {
+        "name": "Pomme de terre",
+        "description": "Variété traditionnelle, parfaite pour toutes les recettes."
+      },
+      "onion": {
+        "name": "Oignon",
+        "description": "Doux et de saveur légère, indispensable dans le garde-manger."
+      },
+      "pepper": {
+        "name": "Poivron",
+        "description": "Charnu et de couleur vive, idéal poêlé ou rôti."
+      },
+      "orange-jam": {
+        "name": "Confiture d'orange",
+        "description": "Faite à la main avec des oranges de saison et très peu de sucre."
+      },
+      "fig-jam": {
+        "name": "Confiture de figue",
+        "description": "Douceur naturelle de figues mûres, sans additifs."
+      },
+      "almond-cookies": {
+        "name": "Biscuits aux amandes",
+        "description": "Croquants et à la vraie amande, comme toujours."
+      },
+      "olive-oil": {
+        "name": "Huile d'olive vierge extra",
+        "description": "Première pression à froid, arôme intense."
+      },
+      "honey": {
+        "name": "Miel de la Serralada",
+        "description": "Miel artisanal, cru et non filtré."
+      },
+      "dried-fruit-mix": {
+        "name": "Mélange de fruits secs",
+        "description": "Sélection de fruits secs torréfiés minute."
+      }
+    }
+  },
+  "cart": {
+    "title": "Ton panier",
+    "empty": "Ton panier est vide.",
+    "add": "Ajouter",
+    "remove": "Supprimer",
+    "increase": "Augmenter la quantité",
+    "decrease": "Diminuer la quantité",
+    "openCart": "Ouvrir le panier",
+    "close": "Fermer",
+    "subtotal": "Sous-total",
+    "checkout": "Passer commande",
+    "comingSoon": "Bientôt disponible"
   },
   "contact": {
     "eyebrow": "Contact",

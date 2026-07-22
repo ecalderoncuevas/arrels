@@ -7,8 +7,10 @@ import * as React from "react"
 import { useSmoothScroll } from "@/components/smooth-scroll-provider"
 import { ShopSign } from "@/components/sections/shop-sign"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
+import { Link } from "@/i18n/navigation"
 import { gsap, SplitText } from "@/lib/gsap"
+import { cn } from "@/lib/utils"
 
 export function Hero() {
   const t = useTranslations("hero")
@@ -54,12 +56,9 @@ export function Hero() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-3">
-          <Button
-            size="lg"
-            onClick={() => lenis?.scrollTo("#products", { offset: -96 })}
-          >
+          <Link href="/productes" className={cn(buttonVariants({ size: "lg" }))}>
             {t("ctaPrimary")}
-          </Button>
+          </Link>
           <Button
             size="lg"
             variant="outline"

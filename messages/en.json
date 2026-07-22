@@ -80,7 +80,113 @@
         "description": "Small, deeply aromatic berries, from the season's final harvests.",
         "variant": "forest"
       }
-    ]
+    ],
+    "ctaViewCatalog": "See the full catalogue"
+  },
+  "catalog": {
+    "meta": {
+      "title": "Catalogue — Arrels Fruita i Verdura",
+      "description": "Fruit, vegetables and pantry essentials, organised by category at the Arrels shop in the Eixample."
+    },
+    "eyebrow": "Catalogue",
+    "title": "Our produce",
+    "intro": "Everything you'll find in the shop, organised by family. Seasonal fruit and vegetables, plus a curated selection of pantry essentials.",
+    "categoriesNav": "Categories",
+    "categories": {
+      "fruit": "Fruit",
+      "vegetable": "Vegetables",
+      "pantry": "Pantry"
+    },
+    "units": {
+      "unit": "unit"
+    },
+    "products": {
+      "peach-calanda": {
+        "name": "Calanda peach",
+        "description": "Intense aroma and juicy flesh, kept in its little paper bag until the end."
+      },
+      "orange-vera": {
+        "name": "Vera orange",
+        "description": "Juicy and well-balanced, perfect for morning juice."
+      },
+      "muscat-grape": {
+        "name": "Muscat grape",
+        "description": "Small, deeply aromatic berries, from the season's final harvests."
+      },
+      "strawberry": {
+        "name": "Strawberry",
+        "description": "Red and juicy, picked at just the right ripeness."
+      },
+      "apple-golden": {
+        "name": "Golden apple",
+        "description": "Crisp and sweet, perfect for eating or cooking."
+      },
+      "pear-conference": {
+        "name": "Conference pear",
+        "description": "Fine flesh and delicate flavour, with a soft texture."
+      },
+      "tomato-montserrat": {
+        "name": "Montserrat tomato",
+        "description": "Meaty and sweet, grown at the foot of the mountain. The king of summer."
+      },
+      "artichoke-prat": {
+        "name": "Prat artichoke",
+        "description": "Tender with a generous heart, from the market gardens at the city's edge."
+      },
+      "beetroot": {
+        "name": "Beetroot",
+        "description": "Earthy and sweet, great roasted or in salads."
+      },
+      "potato": {
+        "name": "Potato",
+        "description": "A traditional variety, perfect for any recipe."
+      },
+      "onion": {
+        "name": "Onion",
+        "description": "Sweet and mild, a pantry essential."
+      },
+      "pepper": {
+        "name": "Bell pepper",
+        "description": "Meaty and vividly coloured, great stir-fried or roasted."
+      },
+      "orange-jam": {
+        "name": "Orange jam",
+        "description": "Handmade with seasonal oranges and very little sugar."
+      },
+      "fig-jam": {
+        "name": "Fig jam",
+        "description": "Natural sweetness from ripe figs, no additives."
+      },
+      "almond-cookies": {
+        "name": "Almond cookies",
+        "description": "Crisp and made with real almonds, just like always."
+      },
+      "olive-oil": {
+        "name": "Extra virgin olive oil",
+        "description": "First cold pressed, with an intense aroma."
+      },
+      "honey": {
+        "name": "Serralada honey",
+        "description": "Artisan honey, raw and unfiltered."
+      },
+      "dried-fruit-mix": {
+        "name": "Dried fruit mix",
+        "description": "A selection of freshly roasted nuts."
+      }
+    }
+  },
+  "cart": {
+    "title": "Your basket",
+    "empty": "Your basket is empty.",
+    "add": "Add",
+    "remove": "Remove",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "openCart": "Open basket",
+    "close": "Close",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "comingSoon": "Coming soon"
   },
   "contact": {
     "eyebrow": "Contact",

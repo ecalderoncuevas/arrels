@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Fraunces, Inter, Kaushan_Script } from "next/font/google"
 import { notFound } from "next/navigation"
 import { ThemeProvider } from "next-themes"
+import { CartHydrator } from "@/components/cart-hydrator"
 import { SiteHeader } from "@/components/site-header"
 import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
 import { routing } from "@/i18n/routing"
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextIntlClientProvider>
+            <CartHydrator />
             <SmoothScrollProvider>
               <SiteHeader />
               <main className="flex-1">{children}</main>

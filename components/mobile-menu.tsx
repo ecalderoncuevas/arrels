@@ -8,13 +8,16 @@ import * as React from "react"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useSmoothScroll } from "@/components/smooth-scroll-provider"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { Link, usePathname } from "@/i18n/navigation"
 import { gsap } from "@/lib/gsap"
 
-type NavItem = { id: string; label: string }
+export type NavItem = { id: string; label: string; href?: string }
 
 export function MobileMenu({ items }: { items: NavItem[] }) {
   const t = useTranslations("nav")
   const { lenis } = useSmoothScroll()
+  const pathname = usePathname()
+  const isHome = pathname === "/"
   const [open, setOpen] = React.useState(false)
   const listRef = React.useRef<HTMLUListElement>(null)
 
@@ -54,7 +57,13 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
         <Drawer.Viewport className="fixed inset-0 flex justify-end">
           <Drawer.Popup className="flex h-full w-full flex-col bg-background px-6 pt-6 pb-10 text-foreground outline-none transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] data-ending-style:translate-x-full data-starting-style:translate-x-full">
             <div className="flex items-center justify-between">
-              <span className="font-heading text-lg">Arrels</span>
+              <Link
+                href="/"
+                onClick={() => setOpen(false)}
+                className="font-heading text-lg"
+              >
+                Arrels
+              </Link>
               <Drawer.Close
                 aria-label={t("closeMenu")}
                 className="inline-flex size-10 items-center justify-center rounded-full transition-colors hover:bg-foreground/5"
@@ -65,22 +74,45 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
 
             <Drawer.Content className="flex flex-1 flex-col justify-center">
               <ul ref={listRef} className="flex flex-col gap-6">
-                {items.map((item) => (
-                  <li key={item.id}>
-                    <a
-                      href={`#${item.id}`}
-                      onClick={(event) => {
-                        event.preventDefault()
-                        setOpen(false)
-                        lenis?.start()
-                        lenis?.scrollTo(`#${item.id}`, { offset: -96 })
-                      }}
-                      className="font-heading text-4xl leading-tight text-foreground transition-colors hover:text-primary"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {items.map((item) => {
+                  const linkClassName =
+                    "font-heading text-4xl leading-tight text-foreground transition-colors hover:text-primary"
+
+                  return (
+                    <li key={item.id}>
+                      {item.href ? (
+                        <Link
+                          href={item.href}
+                          onClick={() => setOpen(false)}
+                          className={linkClassName}
+                        >
+                          {item.label}
+                        </Link>
+                      ) : isHome ? (
+                        <a
+                          href={`#${item.id}`}
+                          onClick={(event) => {
+                            event.preventDefault()
+                            setOpen(false)
+                            lenis?.start()
+                            lenis?.scrollTo(`#${item.id}`, { offset: -96 })
+                          }}
+                          className={linkClassName}
+                        >
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link
+                          href={`/#${item.id}`}
+                          onClick={() => setOpen(false)}
+                          className={linkClassName}
+                        >
+                          {item.label}
+                        </Link>
+                      )}
+                    </li>
+                  )
+                })}
               </ul>
             </Drawer.Content>
 

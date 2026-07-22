@@ -80,7 +80,113 @@
         "description": "Gra petit i molt aromàtic, de les últimes collites de la campanya.",
         "variant": "forest"
       }
-    ]
+    ],
+    "ctaViewCatalog": "Veure tot el catàleg"
+  },
+  "catalog": {
+    "meta": {
+      "title": "Catàleg — Arrels Fruita i Verdura",
+      "description": "Fruita, verdura i complements de rebost, organitzats per categories a la botiga Arrels de l'Eixample."
+    },
+    "eyebrow": "Catàleg",
+    "title": "Els nostres productes",
+    "intro": "Tot el que trobaràs a la botiga, organitzat per famílies. Fruita i verdura de temporada, i una selecció de complements de rebost fets amb cura.",
+    "categoriesNav": "Categories",
+    "categories": {
+      "fruit": "Fruita",
+      "vegetable": "Verdura",
+      "pantry": "Complements"
+    },
+    "units": {
+      "unit": "unitat"
+    },
+    "products": {
+      "peach-calanda": {
+        "name": "Préssec de Calanda",
+        "description": "Aroma intens i polpa sucosa, protegit amb la seva bosseta fins al final."
+      },
+      "orange-vera": {
+        "name": "Taronja de Vera",
+        "description": "Sucosa i equilibrada, ideal per esprémer al matí."
+      },
+      "muscat-grape": {
+        "name": "Raïm Moscatell",
+        "description": "Gra petit i molt aromàtic, de les últimes collites de la campanya."
+      },
+      "strawberry": {
+        "name": "Maduixa",
+        "description": "Vermella i sucosa, collida al punt just de maduresa."
+      },
+      "apple-golden": {
+        "name": "Poma Golden",
+        "description": "Crocant i dolça, perfecta per menjar o per cuinar."
+      },
+      "pear-conference": {
+        "name": "Pera Conference",
+        "description": "Polpa fina i sabor delicat, de textura suau."
+      },
+      "tomato-montserrat": {
+        "name": "Tomàquet de Montserrat",
+        "description": "Carnós i dolç, collit al peu del massís. El rei de l'estiu."
+      },
+      "artichoke-prat": {
+        "name": "Carxofa del Prat",
+        "description": "Tendra i de cor generós, de les hortes que toquen la ciutat."
+      },
+      "beetroot": {
+        "name": "Bleda-rave",
+        "description": "Terrosa i dolça, ideal rostida o amanida."
+      },
+      "potato": {
+        "name": "Patata",
+        "description": "De varietat de tota la vida, perfecta per a qualsevol recepta."
+      },
+      "onion": {
+        "name": "Ceba",
+        "description": "Dolça i de sabor suau, imprescindible al rebost."
+      },
+      "pepper": {
+        "name": "Pebrot",
+        "description": "Carnós i de color viu, ideal per saltar o assar."
+      },
+      "orange-jam": {
+        "name": "Melmelada de taronja",
+        "description": "Feta a mà amb taronges de temporada i molt poc sucre."
+      },
+      "fig-jam": {
+        "name": "Melmelada de figa",
+        "description": "Dolçor natural de figues madures, sense additius."
+      },
+      "almond-cookies": {
+        "name": "Galetes d'ametlla",
+        "description": "Cruixents i amb ametlla de veritat, com les de sempre."
+      },
+      "olive-oil": {
+        "name": "Oli d'oliva verge extra",
+        "description": "De primera premsada en fred, aroma intens."
+      },
+      "honey": {
+        "name": "Mel de la Serralada",
+        "description": "Mel artesana, crua i sense filtrar."
+      },
+      "dried-fruit-mix": {
+        "name": "Barreja de fruits secs",
+        "description": "Selecció de fruits secs torrats al moment."
+      }
+    }
+  },
+  "cart": {
+    "title": "El teu cistell",
+    "empty": "El cistell està buit.",
+    "add": "Afegir",
+    "remove": "Eliminar",
+    "increase": "Augmentar quantitat",
+    "decrease": "Disminuir quantitat",
+    "openCart": "Obrir el cistell",
+    "close": "Tancar",
+    "subtotal": "Subtotal",
+    "checkout": "Finalitzar comanda",
+    "comingSoon": "Properament"
   },
   "contact": {
     "eyebrow": "Contacte",

@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl"
 import { PlaceholderBlock } from "@/components/ui/placeholder-block"
+import { Link } from "@/i18n/navigation"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import type { PlaceholderVariant } from "@/lib/placeholders"
 
@@ -44,6 +45,15 @@ export function Products() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 flex justify-center md:justify-start">
+          <Link
+            href="/productes"
+            className="inline-flex items-center rounded-full border border-primary px-5 py-2.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+          >
+            {t("ctaViewCatalog")}
+          </Link>
         </div>
       </div>
     </section>

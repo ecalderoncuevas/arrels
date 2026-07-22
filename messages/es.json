@@ -80,7 +80,113 @@
         "description": "Grano pequeño y muy aromático, de las últimas cosechas de la campaña.",
         "variant": "forest"
       }
-    ]
+    ],
+    "ctaViewCatalog": "Ver todo el catálogo"
+  },
+  "catalog": {
+    "meta": {
+      "title": "Catálogo — Arrels Fruita i Verdura",
+      "description": "Fruta, verdura y complementos de despensa, organizados por categorías en la tienda Arrels del Eixample."
+    },
+    "eyebrow": "Catálogo",
+    "title": "Nuestros productos",
+    "intro": "Todo lo que encontrarás en la tienda, organizado por familias. Fruta y verdura de temporada, y una selección de complementos de despensa hechos con cuidado.",
+    "categoriesNav": "Categorías",
+    "categories": {
+      "fruit": "Fruta",
+      "vegetable": "Verdura",
+      "pantry": "Complementos"
+    },
+    "units": {
+      "unit": "unidad"
+    },
+    "products": {
+      "peach-calanda": {
+        "name": "Melocotón de Calanda",
+        "description": "Aroma intenso y pulpa jugosa, protegido con su bolsita hasta el final."
+      },
+      "orange-vera": {
+        "name": "Naranja de Vera",
+        "description": "Jugosa y equilibrada, ideal para exprimir por la mañana."
+      },
+      "muscat-grape": {
+        "name": "Uva Moscatel",
+        "description": "Grano pequeño y muy aromático, de las últimas cosechas de la campaña."
+      },
+      "strawberry": {
+        "name": "Fresa",
+        "description": "Roja y jugosa, recogida en su punto justo de maduración."
+      },
+      "apple-golden": {
+        "name": "Manzana Golden",
+        "description": "Crujiente y dulce, perfecta para comer o cocinar."
+      },
+      "pear-conference": {
+        "name": "Pera Conference",
+        "description": "Pulpa fina y sabor delicado, de textura suave."
+      },
+      "tomato-montserrat": {
+        "name": "Tomate de Montserrat",
+        "description": "Carnoso y dulce, cultivado al pie del macizo. El rey del verano."
+      },
+      "artichoke-prat": {
+        "name": "Alcachofa del Prat",
+        "description": "Tierna y de corazón generoso, de las huertas que tocan la ciudad."
+      },
+      "beetroot": {
+        "name": "Remolacha",
+        "description": "Terrosa y dulce, ideal asada o en ensalada."
+      },
+      "potato": {
+        "name": "Patata",
+        "description": "De variedad de toda la vida, perfecta para cualquier receta."
+      },
+      "onion": {
+        "name": "Cebolla",
+        "description": "Dulce y de sabor suave, imprescindible en la despensa."
+      },
+      "pepper": {
+        "name": "Pimiento",
+        "description": "Carnoso y de color vivo, ideal para saltear o asar."
+      },
+      "orange-jam": {
+        "name": "Mermelada de naranja",
+        "description": "Hecha a mano con naranjas de temporada y muy poco azúcar."
+      },
+      "fig-jam": {
+        "name": "Mermelada de higo",
+        "description": "Dulzor natural de higos maduros, sin aditivos."
+      },
+      "almond-cookies": {
+        "name": "Galletas de almendra",
+        "description": "Crujientes y con almendra de verdad, como las de siempre."
+      },
+      "olive-oil": {
+        "name": "Aceite de oliva virgen extra",
+        "description": "De primera presión en frío, aroma intenso."
+      },
+      "honey": {
+        "name": "Miel de la Serralada",
+        "description": "Miel artesana, cruda y sin filtrar."
+      },
+      "dried-fruit-mix": {
+        "name": "Mezcla de frutos secos",
+        "description": "Selección de frutos secos tostados al momento."
+      }
+    }
+  },
+  "cart": {
+    "title": "Tu cesta",
+    "empty": "Tu cesta está vacía.",
+    "add": "Añadir",
+    "remove": "Eliminar",
+    "increase": "Aumentar cantidad",
+    "decrease": "Disminuir cantidad",
+    "openCart": "Abrir la cesta",
+    "close": "Cerrar",
+    "subtotal": "Subtotal",
+    "checkout": "Finalizar pedido",
+    "comingSoon": "Próximamente"
   },
   "contact": {
     "eyebrow": "Contacto",
